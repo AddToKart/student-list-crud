@@ -1,0 +1,141 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4; /* Light background for contrast */
+	margin: 0;
+	padding: 20px; /* General padding around the body */
+}
+
+.container {
+	max-width: 800px; /* Limit width for better readability */
+	margin: 0 auto; /* Center the container */
+	padding: 20px; /* Padding around content */
+	border: 1px solid #3498db; /* Border color */
+	border-radius: 8px; /* Rounded corners */
+	background-color: #f9f9f9; /* Light background color */
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1,
+h2 {
+	color: #3498db; /* Match theme color for headers */
+	text-align: center; /* Center the heading */
+}
+
+h2 {
+	color: #2c3e50; /* Different color for h2 if needed */
+}
+
+table {
+	width: 100%; /* Full width for the table */
+	border-collapse: collapse; /* Merge borders */
+	margin-top: 20px; /* Space above the table */
+}
+
+th,
+td {
+	padding: 10px; /* Padding for table cells */
+	text-align: left; /* Align text to the left */
+	border-bottom: 1px solid #ddd; /* Light border for separation */
+}
+
+th {
+	background-color: #3498db; /* Header background color */
+	color: white; /* Header text color */
+}
+
+tr:nth-child(even) {
+	background-color: #ecf0f1; /* Zebra striping */
+}
+
+tr:hover {
+	background-color: #d5dbdb; /* Highlight row on hover */
+}
+
+a {
+	text-decoration: none; /* Remove underline from links */
+	color: #3498db; /* Link color */
+}
+
+.button {
+	background-color: #3498db; /* Button color */
+	color: white; /* Text color */
+	border: none; /* Remove border */
+	padding: 10px 20px; /* Padding for buttons */
+	border-radius: 5px; /* Rounded button corners */
+	cursor: pointer; /* Pointer cursor on hover */
+	font-size: 16px; /* Button text size */
+	display: inline-block; /* Display as inline block */
+	text-decoration: none; /* Remove underline from links */
+	margin: 5px; /* Margin for spacing between buttons */
+	transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button:hover {
+	background-color: #2980b9; /* Darken button on hover */
+}
+
+/* Form styles */
+.form-group {
+	margin-bottom: 15px; /* Spacing between form groups */
+}
+
+label {
+	display: block; /* Labels take the full width */
+	margin-bottom: 5px; /* Space between label and input */
+	font-weight: bold; /* Bold labels */
+	color: #333; /* Dark color for labels */
+}
+
+input[type="text"] {
+	width: 100%; /* Full width for inputs */
+	padding: 10px; /* Padding inside inputs */
+	border: 1px solid #ccc; /* Light border */
+	border-radius: 4px; /* Rounded input corners */
+	box-sizing: border-box; /* Include padding and border in width */
+}
+
+.container {
+	max-width: 600px; /* Increased width for the container */
+	margin: 0 auto; /* Center the container */
+	padding: 30px; /* Add more padding around content */
+	background: white; /* White background for the container */
+	border-radius: 8px; /* Rounded corners */
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.form-group {
+	margin-bottom: 15px; /* Spacing between form groups */
+}
+
+label {
+	display: block; /* Labels take the full width */
+	margin-bottom: 5px; /* Space between label and input */
+	font-weight: bold; /* Bold labels */
+	color: #333; /* Dark color for labels */
+}
+
+input[type="text"],
+input[type="password"] {
+	width: 100%; /* Full width for inputs */
+	padding: 10px; /* Padding inside inputs */
+	border: 1px solid #ccc; /* Light border */
+	border-radius: 4px; /* Rounded input corners */
+	box-sizing: border-box; /* Include padding and border in width */
+}
+
+.button {
+	background-color: #3498db; /* Button color */
+	color: white; /* Text color */
+	border: none; /* Remove border */
+	padding: 10px 20px; /* Padding for buttons */
+	border-radius: 5px; /* Rounded button corners */
+	cursor: pointer; /* Pointer cursor on hover */
+	font-size: 16px; /* Button text size */
+	display: inline-block; /* Display as inline block */
+	text-decoration: none; /* Remove underline from links */
+	text-align: center; /* Center text */
+}
+
+.button:hover {
+	background-color: #2980b9; /* Darken button on hover */
+}
